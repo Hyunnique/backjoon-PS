@@ -1,4 +1,10 @@
-// Default
+/**
+ * @author 김대현
+ * @since 2023. 08. 02.
+ * @see https://www.acmicpc.net/problem/11659
+ * @note 누적 합 구해서 포함 안되는 영역 빼기
+ */
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;

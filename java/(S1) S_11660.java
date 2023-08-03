@@ -18,7 +18,8 @@ public class Main {
         for (int row = 0; row < N; row++) {
             st = new StringTokenizer(br.readLine());
             
-            for (int column = 0; column < N; column++) {
+            for (int column+
+            ++ = 0; column < N; column++) {
                 arr[row][column] = Integer.parseInt(st.nextToken());
                 if (row - 1 >= 0) arr[row][column] += arr[row - 1][column];
                 if (column - 1 >= 0) arr[row][column] += arr[row][column - 1];
